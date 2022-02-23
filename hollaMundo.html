@@ -1,0 +1,24 @@
+<script>
+	//Create a question for the languages
+	var language = prompt ("Which language would you like to choose? Enter 'EN' for English, 'SE' for Swedish or 'LT' for Lithuanian.")
+
+	//Process the input to lower case
+	//If user enters EN
+	if (language.toLowerCase() == "en") {
+		alert ("Hello World!");
+	}
+
+	// If user enters SE
+	else if (language.toLowerCase() == "se") {
+		alert ("Hej världen!");
+	}
+
+	// If user enters LT
+	else if (language.toLowerCase() == "lt") {
+		alert ("Labas, pasauli!");
+	}
+
+	else {
+		alert ("Please choose between 'EN' for english, 'SE' for swedish and 'LT' for lithuanian languages.");
+	}
+</script>

@@ -1,0 +1,33 @@
+<script>
+//Create variables to the program
+var welcome = alert ("Hi! This program will show you which number is bigger :)")
+
+//Ask for the first number
+var a = prompt ("Please enter the first number.")
+a = Number(a);
+
+	//If a is not a number
+	if (isNaN(a)) {
+		alert ("This is not a number.")
+	}
+
+//Ask for the second number
+var b = prompt ("Please enter the second number.")
+b = Number (b);
+	
+	//If b is not a number
+	if (isNaN(a)) {
+		alert ("This is not a number.")
+	}
+
+//Show the output which number is bigger
+if (a > b) {
+	alert (a)
+}
+else if (b > a) {
+	alert (b)
+}
+else if (a = b) {
+	alert ("Numbers you entered are equal.")
+}
+</script>
