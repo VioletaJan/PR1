@@ -1,0 +1,30 @@
+<script>
+	
+	//Ask the user for the name
+	name = prompt("Please write your name here:");
+	greeting(name);
+
+//Create a greeting with users input
+	function greeting(name){
+		document.write("Hello " + name + "!<br>"); 
+	}
+
+	//Ask user if he wants to run the program
+var answer = confirm("Do you want to run the program?");
+
+
+//If answer is yes, run the program
+if(answer== true) {
+
+//My function starts here
+	var input = prompt("Please enter the number:")
+
+	for (var counter = input; counter < 1000; counter *= 2) 
+	{
+		document.write(counter + "<br>");
+	}
+
+	document.write("Done!")
+ }
+
+</script>
